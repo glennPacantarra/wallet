@@ -73,6 +73,13 @@ export const Header = () => {
         <NavLink
           onClick={() => setShowHamburger(true)}
           style={getActiveStyle}
+          to="/wallet"
+        >
+          Wallet
+        </NavLink>
+        <NavLink
+          onClick={() => setShowHamburger(true)}
+          style={getActiveStyle}
           to="/product-listing"
         >
           Explore

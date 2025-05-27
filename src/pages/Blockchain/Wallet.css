@@ -1,0 +1,83 @@
+/* Wallet.css */
+.wallet-container {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.wallet-container h1 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.wallet-container h2 {
+  margin-top: 32px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.wallet-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.wallet-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.wallet-container button:hover {
+  background-color: #005fcc;
+}
+
+.wallet-container p {
+  font-weight: bold;
+  color: #222;
+}
+
+hr {
+  margin: 32px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .wallet-container {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .wallet-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .wallet-container h2 {
+    font-size: 1rem;
+  }
+
+  .wallet-container input,
+  .wallet-container button {
+    font-size: 0.95rem;
+  }
+}

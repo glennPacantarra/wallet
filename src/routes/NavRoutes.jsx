@@ -3,6 +3,7 @@ import { Home } from "../pages/Home/Home";
 import { Cart } from "../pages/Cart/Cart";
 import { Route, Routes } from "react-router-dom";
 import { Login } from "../pages/auth/Login/Login";
+import  Wallet  from "../pages/Blockchain/Wallet";
 import { ProductListing } from "../pages/ProductListing/ProductListing";
 import { ProductDetails } from "../pages/ProductDetails/ProductDetails";
 import { RequiresAuth } from "../components/requires-auth/RequiresAuth";
@@ -40,6 +41,7 @@ export const NavRoutes = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="/product-listing" element={<ProductListing />} />
+      <Route path="/wallet" element={<Wallet />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/product-details/:productId" element={<ProductDetails />} />
       <Route
